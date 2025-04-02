@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import profilesData from '../data/profiles.json'; // Mock data file
-import './AdminPanel.css'; // Import the styles
+import profilesData from '../data/profiles.json'; 
+import './AdminPanel.css'; 
 
 const AdminPanel = ({ onUpdateProfiles }) => {
   const { register, handleSubmit, reset } = useForm();
   const [profiles, setProfiles] = useState(profilesData);
 
-  // Function to add a profile
+ 
   const onSubmit = (data) => {
     const newProfile = {
       id: profiles.length + 1,
@@ -15,22 +15,21 @@ const AdminPanel = ({ onUpdateProfiles }) => {
     };
     const updatedProfiles = [...profiles, newProfile];
     setProfiles(updatedProfiles);
-    onUpdateProfiles(updatedProfiles); // Pass updated profiles to parent
+    onUpdateProfiles(updatedProfiles); 
     reset();
   };
 
-  // Function to delete a profile
+
   const handleDelete = (id) => {
     const updatedProfiles = profiles.filter((profile) => profile.id !== id);
     setProfiles(updatedProfiles);
-    onUpdateProfiles(updatedProfiles); // Pass updated profiles to parent
+    onUpdateProfiles(updatedProfiles); 
   };
 
   return (
     <div className="admin-panel">
       <h2>Admin Panel</h2>
 
-      {/* Profile Form */}
       <form onSubmit={handleSubmit(onSubmit)}>
         <input {...register('name', { required: true })} placeholder="Name" />
         <input {...register('address', { required: true })} placeholder="Address" />
@@ -39,7 +38,7 @@ const AdminPanel = ({ onUpdateProfiles }) => {
         <button type="submit">Add Profile</button>
       </form>
 
-      {/* Profile List */}
+
       <div className="profile-list">
         <ul>
           {profiles.map((profile) => (

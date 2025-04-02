@@ -5,13 +5,13 @@ const ProfileCard = ({ profile, onShowMap }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    // Navigate to the profile details page when the profile card is clicked
+
     navigate(`/profile/${profile.id}`);
   };
 
   const handleShowMapClick = (event) => {
-    event.stopPropagation(); // Prevent card click event from firing
-    // Trigger map display logic
+    event.stopPropagation(); 
+  
     onShowMap(profile.address);
   };
 

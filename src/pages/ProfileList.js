@@ -2,21 +2,21 @@ import React, { useState, useEffect } from "react";
 import ProfileCard from "../components/ProfileCard";
 import profilesData from "../data/profiles.json";
 import Map from "../components/Map";
-import ClipLoader from "react-spinners/ClipLoader"; // For loading spinner
+import ClipLoader from "react-spinners/ClipLoader"; 
 
 const ProfileList = () => {
   const [profiles, setProfiles] = useState([]);
   const [filteredProfiles, setFilteredProfiles] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedLocation, setSelectedLocation] = useState(null);
-  const [loading, setLoading] = useState(true); // Track loading state
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
-    setTimeout(() => {  // Simulating an API fetch with a delay
+    setTimeout(() => {  
       setProfiles(profilesData);
       setFilteredProfiles(profilesData);
-      setLoading(false);  // After data is fetched, stop loading
-    }, 2000);  // Simulate delay of 2 seconds
+      setLoading(false);
+    }, 2000);  
   }, []);
 
   const handleSearch = (e) => {
@@ -43,7 +43,7 @@ const ProfileList = () => {
     <div className="profile-list">
       <h2>Profiles</h2>
 
-      {/* Search Input */}
+    
       <input
         type="text"
         placeholder="Search by name or address..."
@@ -51,7 +51,7 @@ const ProfileList = () => {
         onChange={handleSearch}
       />
 
-      {/* Loading State */}
+   
       {loading ? (
         <div className="loading-indicator">
           <ClipLoader size={50} color={"#123abc"} loading={loading} />
@@ -64,7 +64,7 @@ const ProfileList = () => {
         </div>
       )}
 
-      {/* Map Component */}
+     
       {selectedLocation && <Map position={selectedLocation.coords} address={selectedLocation.address} />}
     </div>
   );

@@ -9,7 +9,7 @@ const ProfileDetails = () => {
 
   useEffect(() => {
     console.log('Profile ID from URL:', id); 
-    // Find the profile by ID
+   
     const selectedProfile = profilesData.find(p => p.id === id);
     console.log('Selected Profile:', selectedProfile);
     setProfile(selectedProfile);

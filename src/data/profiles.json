@@ -1,21 +1,66 @@
 [
     {
       "id": "1",
-      "name": "John Doe",
-      "photo": "john_doe.jpg",
-      "description": "A brief description about John.",
-      "address": "123 Main St, City, Country",
-      "contact": "john.doe@example.com",
-      "interests": ["Reading", "Traveling"]
+      "name": "Rajesh Sharma",
+      "photo": "rajesh_sharma.jpg",
+      "description": "A tech enthusiast and avid reader.",
+      "address": "12 MG Road, Mumbai, India",
+      "contact": "rajesh.sharma@example.com",
+      "interests": ["Technology", "Reading"]
     },
     {
       "id": "2",
-      "name": "Jane Smith",
-      "photo": "jane_smith.jpg",
-      "description": "A brief description about Jane.",
-      "address": "456 Oak Rd, City, Country",
-      "contact": "jane.smith@example.com",
-      "interests": ["Cooking", "Music"]
+      "name": "Priya Verma",
+      "photo": "priya_verma.jpg",
+      "description": "A passionate traveler and food lover.",
+      "address": "45 Park Street, Kolkata, India",
+      "contact": "priya.verma@example.com",
+      "interests": ["Traveling", "Food"]
+    },
+    {
+      "id": "3",
+      "name": "Amit Khanna",
+      "photo": "amit_khanna.jpg",
+      "description": "An entrepreneur and fitness freak.",
+      "address": "89 Lajpat Nagar, New Delhi, India",
+      "contact": "amit.khanna@example.com",
+      "interests": ["Business", "Fitness"]
+    },
+    {
+      "id": "4",
+      "name": "Neha Patil",
+      "photo": "neha_patil.jpg",
+      "description": "Loves painting and classical music.",
+      "address": "67 FC Road, Pune, India",
+      "contact": "neha.patil@example.com",
+      "interests": ["Painting", "Music"]
+    },
+    {
+      "id": "5",
+      "name": "Arjun Reddy",
+      "photo": "arjun_reddy.jpg",
+      "description": "A sports enthusiast and adventure lover.",
+      "address": "23 Banjara Hills, Hyderabad, India",
+      "contact": "arjun.reddy@example.com",
+      "interests": ["Sports", "Adventure"]
+    },
+    {
+      "id": "6",
+      "name": "Kavita Nair",
+      "photo": "kavita_nair.jpg",
+      "description": "An author and literature expert.",
+      "address": "78 MG Road, Bangalore, India",
+      "contact": "kavita.nair@example.com",
+      "interests": ["Writing", "Literature"]
+    },
+    {
+      "id": "7",
+      "name": "Rohan Mehta",
+      "photo": "rohan_mehta.jpg",
+      "description": "A digital marketing professional.",
+      "address": "34 Connaught Place, New Delhi, India",
+      "contact": "rohan.mehta@example.com",
+      "interests": ["Marketing", "Networking"]
     }
   ]
   
