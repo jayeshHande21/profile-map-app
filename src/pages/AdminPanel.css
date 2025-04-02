@@ -1,0 +1,88 @@
+
+.admin-panel {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .admin-panel h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+
+  .admin-panel form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .admin-panel input,
+  .admin-panel textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .admin-panel button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .admin-panel button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Profile List */
+  .profile-list {
+    margin-top: 20px;
+  }
+  
+  .profile-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-list li button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-list li button:hover {
+    background-color: #c0392b;
+  }
+  
+  .profile-list li span {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,94 @@
+/* ProfileDetails.css */
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-details h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .profile-details img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #ddd;
+  }
+  
+  .profile-details p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .profile-details strong {
+    font-weight: bold;
+  }
+  
+  .profile-details .button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .profile-details button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-details button:hover {
+    background-color: #45a049;
+  }
+  
+  .profile-details .back-button {
+    background-color: #2196F3;
+  }
+  
+  .profile-details .back-button:hover {
+    background-color: #0b7dda;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .profile-details {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    .profile-details img {
+      max-width: 150px;
+      height: 150px;
+    }
+  
+    .profile-details h2 {
+      font-size: 1.5rem;
+    }
+  
+    .profile-details p {
+      font-size: 0.9rem;
+    }
+  
+    .profile-details button {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,21 @@
+[
+    {
+      "id": "1",
+      "name": "John Doe",
+      "photo": "john_doe.jpg",
+      "description": "A brief description about John.",
+      "address": "123 Main St, City, Country",
+      "contact": "john.doe@example.com",
+      "interests": ["Reading", "Traveling"]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "photo": "jane_smith.jpg",
+      "description": "A brief description about Jane.",
+      "address": "456 Oak Rd, City, Country",
+      "contact": "jane.smith@example.com",
+      "interests": ["Cooking", "Music"]
+    }
+  ]
+  
